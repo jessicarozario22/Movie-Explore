@@ -268,6 +268,8 @@ This project demonstrates practical use of:
 </p>
 
 ---
+<details open> <summary><strong>🏠 Home Page</strong></summary> <br> <p align="center"> <img src="src/assets/hero.jpg" alt="Movie Explorer Home Page" width="90%" /> </p> </details> <br> <details> <summary><strong>🎬 Movies Page</strong></summary> <br> <p align="center"> <img src="src/assets/movie-explorer-UI.png" alt="Movie Explorer Movies Page" width="90%" /> </p> </details> <br> <details> <summary><strong>🎞️ Movie Details Modal</strong></summary> <br> <p align="center"> <img src="src/assets/movie-explorer UI.png" alt="Movie Details Modal" width="90%" /> </p> </details> <br> <details> <summary><strong>📱 Responsive View</strong></summary> <br> <p align="center"> <img src="src/assets/movie-explorer-search.png" alt="Movie Explorer Mobile View" width="45%" /> <img src="src/assets/movie-explorer-modals.png" alt="Movie Explorer Mobile Modal" width="45%" /> </p> </details>
+
 
 ## 🔮 Future Improvements
 
