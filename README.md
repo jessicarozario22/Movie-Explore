@@ -288,7 +288,7 @@ This project demonstrates practical use of:
 
 **UI/UX Designer & Web Developer**
 
-* GitHub: `YOUR_GITHUB_LINK`
+* GitHub: (https://github.com/jessicarozario22) `YOUR_GITHUB_LINK`
 * LinkedIn: `YOUR_LINKEDIN_LINK`
 * Behance: `YOUR_BEHANCE_LINK`
 
