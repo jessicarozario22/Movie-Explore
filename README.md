@@ -5,18 +5,18 @@ A modern and responsive **Movie Explorer Web Application** built with **React** 
 ## 🌐 Live Preview
 
 <p align="center">
-  <img src="./public/movie-explorer-preview.png" alt="Movie Explorer Preview" width="100%">
+  <img src="./src/assets/movie-explorer-UI.png" alt="Movie Explorer Preview" width="100%">
 </p>
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** `YOUR_LIVE_LINK`
+🔗 Live Website:[Vercel Live Link](https://movie-explorer-opal-one.vercel.app/) `YOUR_LIVE_LINK`
 
 ## 📂 Repository
 
-🔗 **GitHub Repository:** `YOUR_GITHUB_REPO_LINK`
+🔗 GitHub Repository:[Movie-Explore](https://github.com/jessicarozario22/Movie-Explore/) `YOUR_GITHUB_REPO_LINK`
 
 ---
 
@@ -288,7 +288,7 @@ This project demonstrates practical use of:
 
 **UI/UX Designer & Web Developer**
 
-* GitHub: `YOUR_GITHUB_LINK`
+* GitHub: (https://github.com/jessicarozario22) `YOUR_GITHUB_LINK`
 * LinkedIn: `YOUR_LINKEDIN_LINK`
 * Behance: `YOUR_BEHANCE_LINK`
 
