@@ -12,11 +12,11 @@ A modern and responsive **Movie Explorer Web Application** built with **React** 
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:[Vercel Live Link](https://movie-explorer-opal-one.vercel.app/) `YOUR_LIVE_LINK`
+🔗 Live Website:[Vercel Live Link](https://movie-explorer-opal-one.vercel.app/) `YOUR_LIVE_LINK`
 
 ## 📂 Repository
 
-🔗 **GitHub Repository:[Movie-Explore](https://github.com/jessicarozario22/Movie-Explore/) `YOUR_GITHUB_REPO_LINK`
+🔗 GitHub Repository:[Movie-Explore](https://github.com/jessicarozario22/Movie-Explore/) `YOUR_GITHUB_REPO_LINK`
 
 ---
 
