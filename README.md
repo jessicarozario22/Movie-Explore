@@ -5,7 +5,7 @@ A modern and responsive **Movie Explorer Web Application** built with **React** 
 ## 🌐 Live Preview
 
 <p align="center">
-  <img src="./public/movie-explorer-preview.png" alt="Movie Explorer Preview" width="100%">
+  <img src="./src/assets/movie-explorer-UI.png" alt="Movie Explorer Preview" width="100%">
 </p>
 
 ---
