@@ -263,7 +263,8 @@ This project demonstrates practical use of:
 ## 📸 UI Preview
 
 <p align="center">
-  <img src="./public/movie-explorer-preview.png" alt="Movie Explorer UI Preview">
+  <img width="1921" height="2195" alt="movie-explorer UI" src="src/assets/movie-explorer UI.png"
+      alt="Movie Explorer UI Preview">
 </p>
 
 ---
@@ -288,9 +289,9 @@ This project demonstrates practical use of:
 
 **UI/UX Designer & Web Developer**
 
-* GitHub: (https://github.com/jessicarozario22) `YOUR_GITHUB_LINK`
-* LinkedIn: `YOUR_LINKEDIN_LINK`
-* Behance: `YOUR_BEHANCE_LINK`
+* GitHub:[jessicarozario22] (https://github.com/jessicarozario22) `YOUR_GITHUB_LINK`
+* LinkedIn: [jessica-mary-rozario] (https://www.linkedin.com/in/jessica-mary-rozario/) `YOUR_LINKEDIN_LINK`
+* Behance: [jessicarozario1] (https://www.behance.net/jessicarozario1)`YOUR_BEHANCE_LINK`
 
 ---
 
