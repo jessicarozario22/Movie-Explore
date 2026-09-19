@@ -14,7 +14,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
         onClick={(e) => e.stopPropagation()}
       >
 
-        {/* Close Icon */}
+        
         <button
           type="button"
           onClick={onClose}
@@ -25,7 +25,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
 
         <div className="flex flex-col md:flex-row">
 
-          {/* Poster */}
+          
           <div className="w-full md:w-2/5 h-[400px] md:h-[550px] bg-gray-800">
             {movie.image?.original || movie.image?.medium ? (
               <img
@@ -40,23 +40,23 @@ const MovieDetailsModal = ({ movie, onClose }) => {
             )}
           </div>
 
-          {/* Details */}
+         
           <div className="w-full md:w-3/5 p-6">
 
-            {/* Title */}
+           
             <h2 className="text-3xl font-bold text-orange-500">
               {movie.name}
             </h2>
 
-            {/* Rating / Year / Status */}
+           
             <div className="flex flex-wrap gap-4 mt-4 text-sm">
 
               <span className="text-yellow-400">
-                ⭐ {movie.rating?.average || "N/A"}
+                 {movie.rating?.average || "N/A"}
               </span>
 
               <span className="text-gray-300">
-                📅{" "}
+                {" "}
                 {movie.premiered
                   ? movie.premiered.slice(0, 4)
                   : "N/A"}
@@ -64,13 +64,13 @@ const MovieDetailsModal = ({ movie, onClose }) => {
 
               {movie.status && (
                 <span className="text-gray-300">
-                  🎬 {movie.status}
+                   {movie.status}
                 </span>
               )}
 
             </div>
 
-            {/* Genres */}
+        
             {movie.genres?.length > 0 && (
               <div className="flex flex-wrap gap-2 mt-5">
                 {movie.genres.map((genre) => (
@@ -84,7 +84,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
               </div>
             )}
 
-            {/* Language */}
+            
             {movie.language && (
               <p className="mt-5 text-gray-400">
                 <span className="text-white font-medium">
@@ -94,7 +94,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
               </p>
             )}
 
-            {/* Summary */}
+            
             <div className="mt-5">
               <h3 className="text-lg font-semibold mb-2">
                 About
@@ -109,7 +109,7 @@ const MovieDetailsModal = ({ movie, onClose }) => {
               />
             </div>
 
-            {/* Close */}
+            
             <button
               type="button"
               onClick={onClose}

@@ -1,26 +1,14 @@
-
 import { Link } from "react-router";
-import movieBg from "../assets/hero.jpg";
 
 const Hero = () => {
   return (
-    <section
-      className="relative min-h-[600px] bg-gray-950 text-white flex items-center overflow-hidden"
-      style={{
-        backgroundImage: `url(${movieBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/90 to-gray-950/30"></div>
-
-      {/* Content */}
+    <section>
+   
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
         <div className="max-w-3xl">
 
           <p className="text-orange-500 font-semibold mb-4">
-            🎬 MOVIE EXPLORER
+            MOVIE EXPLORER
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
@@ -39,11 +27,9 @@ const Hero = () => {
           <div className="mt-8">
             <Link
               to="/movies"
-              className="inline-block bg-orange-500 hover:bg-orange-600
-              text-white font-semibold px-7 py-3 rounded-lg
-              transition duration-300 hover:scale-105"
+              className="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg"
             >
-              Explore Movies →
+              Explore Movies
             </Link>
           </div>
 

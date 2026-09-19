@@ -1,44 +1,46 @@
-import { useState } from "react";
-import MoviesModal from "../components/MovieModal";
+
+import { Link } from "react-router";
+import movieBg from "../assets/hero.jpg";
 
 const Home = () => {
-    const [click, setClick] = useState(false);
+  return (
+    <div
+      className="relative min-h-[600px] bg-gray-950 text-white flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: `url(${movieBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Background Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-950/95 via-gray-950/75 to-gray-950/30"></div>
 
-    return (
-        <div>
-            <div className="text-center">
-                <h1 className="text-6xl text-amber-500 font-bold">
-                    Discover{" "}
-                    <span className="text-amber-700 font-extrabold">
-                        Movies
-                    </span>
-                </h1>
+      {/* Hero Content */}
+      <div className="relative z-10 text-center px-6 max-w-3xl">
 
-                <p className="py-4 max-w-md mx-auto text-md text-amber-300">
-                    Watch New Movies. Enjoy your free time.
-                    Explore and discover your favorite movies from around the world.
-                </p>
-            </div>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+          Discover{" "}
+          <span className="text-amber-600">
+            Movies
+          </span>
+        </h1>
 
-            <div className="flex justify-center">
-                <button
-                    type="button"
-                    onClick={() => setClick(true)}
-                    className="text-white text-lg font-medium
-          bg-amber-500 px-5 py-2 rounded-4xl
-          hover:scale-105 transition-all"
-                >
-                    Watch Now
-                </button>
-            </div>
+        <p className="mt-5 max-w-2xl mx-auto text-base sm:text-lg text-gray-300 leading-7">
+          Watch New Movies. Enjoy your free time.
+          Explore and discover your favorite movies from around the world.
+        </p>
 
-            {click && (
-                <MoviesModal
-                    onClose={() => setClick(false)}
-                />
-            )}
-        </div>
-    );
+        {/* Explore Button */}
+        <Link
+          to="/movies"
+          className="inline-block mt-6 bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg font-medium transition"
+        >
+          Explore Movies
+        </Link>
+
+      </div>
+    </div>
+  );
 };
 
 export default Home;

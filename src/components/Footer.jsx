@@ -6,17 +6,16 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
 
-          {/* Application Name */}
+         
           <div className="text-lg font-bold text-white">
-            🎬 Movie<span className="text-orange-500">Explorer</span>
+             Movie<span className="text-orange-500">Explorer</span>
           </div>
 
-          {/* Copyright */}
+        
           <p className="text-sm text-center">
             © 2026 MovieExplorer. All rights reserved.
           </p>
 
-          {/* GitHub */}
           <a
             href="https://github.com/jessicarozario22"
             target="_blank"
