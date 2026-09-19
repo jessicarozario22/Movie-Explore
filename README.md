@@ -263,7 +263,7 @@ This project demonstrates practical use of:
 ## 📸 UI Preview
 
 <p align="center">
-  <img width="1921" height="2195" alt="movie-explorer UI" src="https://github.com/user-attachments/assets/7d87f66f-c5f8-455a-a172-bf7f9a1bccad
+  <img width="1921" height="2195" alt="movie-explorer UI" src="src/assets/movie-explorer UI.png"
       alt="Movie Explorer UI Preview">
 </p>
 
